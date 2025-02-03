@@ -1339,6 +1339,7 @@ PRODUCT_PACKAGES += \
     oplus_sensor_fb
 
 PRODUCT_PACKAGES += \
+    vendor_bin_hw_vendor_qti_esepowermanager@1_1-service \
     odm_lib_libdapparamstorage_v3_6_so \
     odm_lib_libdeccfg_v3_6_so \
     odm_lib_libdlbdsservice_v3_6_so \
@@ -1349,9 +1350,15 @@ PRODUCT_PACKAGES += \
     odm_lib_soundfx_libswdap_v3_6_so \
     odm_lib_vendor_dolby_v3_6_hardware_dms360@2_0-impl_so \
     odm_lib_vendor_dolby_v3_6_hardware_dms360@2_0_so \
+    vendor_lib64_hw_vendor_qti_esepowermanager@1_1-impl_so \
+    vendor_lib64_vendor_qti_esepowermanager@1_0_so \
+    vendor_lib64_vendor_qti_esepowermanager@1_1_so \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
     system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
     vendor_lib64_libq3dtools_adreno_so
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon

@@ -25509,6 +25509,13 @@ cc_prebuilt_binary {
 }
 
 install_symlink {
+    name: "vendor_bin_hw_vendor_qti_esepowermanager@1_1-service",
+    soc_specific: true,
+    installed_location: "bin/hw/vendor.qti.esepowermanager@1.1-service",
+    symlink_target: "/odm/bin/hw/vendor.qti.esepowermanager@1.1-service",
+}
+
+install_symlink {
     name: "odm_lib_libdapparamstorage_v3_6_so",
     device_specific: true,
     installed_location: "lib/libdapparamstorage_v3_6.so",
@@ -25576,6 +25583,27 @@ install_symlink {
     device_specific: true,
     installed_location: "lib/vendor.dolby_v3_6.hardware.dms360@2.0.so",
     symlink_target: "/odm/etc/vendor.dolby_v3_6.hardware.dms360@2.0_etc.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_hw_vendor_qti_esepowermanager@1_1-impl_so",
+    soc_specific: true,
+    installed_location: "lib64/hw/vendor.qti.esepowermanager@1.1-impl.so",
+    symlink_target: "/odm/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_vendor_qti_esepowermanager@1_0_so",
+    soc_specific: true,
+    installed_location: "lib64/vendor.qti.esepowermanager@1.0.so",
+    symlink_target: "/odm/lib64/vendor.qti.esepowermanager@1.0.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_vendor_qti_esepowermanager@1_1_so",
+    soc_specific: true,
+    installed_location: "lib64/vendor.qti.esepowermanager@1.1.so",
+    symlink_target: "/odm/lib64/vendor.qti.esepowermanager@1.1.so",
 }
 
 install_symlink {
