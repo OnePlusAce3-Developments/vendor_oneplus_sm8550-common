@@ -656,6 +656,7 @@ PRODUCT_PACKAGES += \
     libmmosal_vendor \
     libmmrtpdecoder_vendor \
     libmmrtpencoder_vendor \
+    libnanopb \
     libnetmgr \
     libnetmgr_common \
     libnetmgr_datapath_proxy \
@@ -1250,6 +1251,7 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
+    ConsumerIRApp \
     ImsRcsService \
     QCC \
     QtiTelephonyService \
